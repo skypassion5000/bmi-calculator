@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="CSS/base.css" />
+    <link rel="stylesheet" href="CSS/layout.css" />
+    <link rel="stylesheet" href="CSS/component.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- Start bg -->
+      <!-- <div class="bg"></div> -->
+      <!-- End bg -->
+
+      <!-- Start header -->
+      <header>
+        <div class="header">
+          <div class="container">
+            <div class="header__inner row">
+              <div class="bmiLogo col-sm-4">
+                <img src="images/BMICLogo.png" alt="" />
+              </div>
+              <div class="inputData col-sm-4">
+                <label for="hid" class="inputLabel1">身高 cm</label>
+                <input
+                  id="hid"
+                  type="text"
+                  placeholder="請輸入身高"
+                  class="hInput"
+                />
+                <label for="wid" class="inputLabel2">體重 kg</label>
+                <input
+                  id="wid"
+                  type="text"
+                  placeholder="請輸入體重"
+                  class="wInput"
+                />
+              </div>
+              <div class="result col-sm-4">
+                <!-- 1.init -->
+                <button class="btnInit">看結果</button>
+
+                <!-- 2.icon loop -->
+                <!-- <button class="send redCircle">
+                  20.90<br />
+                  <p class="bmiStr">BMI</p>
+                </button>
+                <img src="" class="icon icon__red" alt="" />
+                <p class="redStr">理想</p> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- End header -->
+
+      <!-- Start main -->
+      <section class="main">
+        <div class="content container">
+          <h4 class="bmiRecord">BMI 紀錄</h4>
+          <div class="deleteClass">
+            <a href="#">刪除歷史紀錄</a>
+          </div>
+          <ul class="list">
+            <p class="smStr">BMI</p>
+            <!-- <li class="liList border--red row">
+              <span class="col-sm-2">理想</span>
+              <span class="col-sm-2"><p class="smStr">BMI</p> 20.90</span>
+              <span class="col-sm-2"><p class="smStr">weight</p> 40kg</span>
+              <span class="col-sm-2"><p class="smStr">height</p> 180cm</span>
+              <span class="col-sm-2"><p class="smStr">Mouth-Date-Year</p></span>
+              <span class="col-sm-2"><a href="#" data-index="1">刪除</a></span>
+            </li> -->
+          </ul>
+        </div>
+      </section>
+      <!-- End main -->
+
+      <!-- Start footer -->
+      <footer>
+        <div class="footer">
+          <div class="info-data">
+            <img src="images/BMICLogo.png" alt="" />
+          </div>
+        </div>
+      </footer>
+      <!-- End footer -->
+    </div>
+
+    <!-- JS -->
+    <script src="js/all.js"></script>
+  </body>
+</html>

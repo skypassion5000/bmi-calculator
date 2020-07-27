@@ -1,0 +1,440 @@
+/*
+ * You can say something about your file if you need it!
+ */
+/*-------------------------*/
+/* $Catalog 
+---------------------------*/
+/** 
+ * Globel
+ * Elements
+ * Header
+ * About
+ * Quote
+ * Skill
+ * Experience
+ * Work
+ * Contact
+ * Footer
+ * Parallax graphic
+**/
+
+
+/*-------------------------*/
+/* $Globel
+---------------------------*/
+
+/*-------------------------*/
+/* $Elements
+---------------------------*/
+
+/*-------------------------*/
+/* $background
+---------------------------*/
+/* .bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 380px;
+    background: #424242;
+} */
+
+/*-------------------------*/
+/* $Header
+---------------------------*/
+.header {
+    width: 100%;
+    height: 300px;
+    background: #424242;
+}
+
+.header__inner {
+    padding-top: 92px;
+}
+
+.bmiLogo,
+.result {
+    text-align: center;
+}
+
+.inputLabel1,
+.inputLabel2 {
+    font-family: 'AppleSystemUIFont';
+    font-size: 18px;
+    color: #FFD366;
+    line-height: 21px;
+}
+
+.hInput,
+.wInput {
+    background: rgba(255, 255, 255, 0.18);
+    border: 2px solid #FFD366;
+    border-radius: 10px;
+    width: 250px;
+    height: 40;
+    font-family: 'SFNSDisplay';
+    font-size: 24px;
+    color: rgba(255, 255, 255, 0.50);
+    display: block;
+    margin-top: 7px;
+    margin-bottom: 23px;
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.50);
+}
+
+
+
+.btnInit {
+    background: #FFD366;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    font-family: 'PingFangTC-Regular';
+    font-size: 24px;
+    line-height: 25px;
+    color: #424242;
+    cursor: pointer;
+    border: none;
+}
+
+.btnInit:hover {
+    background: #FFD366;
+    box-shadow: 0 1px 6px 3px rgba(255, 195, 49, 0.64);
+}
+
+btnInit:active {
+    background: #DEA921;
+}
+
+.send {
+    font-family: 'SFNSDisplay';
+    font-size: 32px;
+}
+
+.bmiStr {
+    font-family: 'AppleSystemUIFont';
+    font-size: 14px;
+    margin: 0;
+}
+
+.greenCircle {
+    width: 123px;
+    height: 123px;
+    border-radius: 50%;
+    background-color: inherit;
+    float: left;
+    border: 6px solid #86D73E;
+    color: #86D73E;
+}
+
+.blueCircle {
+    width: 123px;
+    height: 123px;
+    border-radius: 50%;
+    background-color: inherit;
+    float: left;
+    border: 6px solid #31BAF9;
+    color: #31BAF9;
+}
+
+.yellowCircle {
+    width: 123px;
+    height: 123px;
+    border-radius: 50%;
+    background-color: inherit;
+    float: left;
+    border: 6px solid #FF982D;
+    color: #FF982D;
+}
+
+.orangeCircle {
+    width: 123px;
+    height: 123px;
+    border-radius: 50%;
+    background-color: inherit;
+    float: left;
+    border: 6px solid #FF6C02;
+    color: #FF6C02;
+}
+
+.redCircle {
+    width: 123px;
+    height: 123px;
+    border-radius: 50%;
+    background-color: inherit;
+    float: left;
+    border: 6px solid #FF1200;
+    color: #FF1200;
+}
+
+.greenStr {
+    font-family: 'SFNSDisplay';
+    font-size: 32px;
+    float: left;
+    margin: 45px 0 0 18px;
+    color: #86D73E;
+}
+
+.blueStr {
+    font-family: 'SFNSDisplay';
+    font-size: 32px;
+    float: left;
+    margin: 45px 0 0 18px;
+    color: #31BAF9;
+}
+
+.yellowStr {
+    font-family: 'SFNSDisplay';
+    font-size: 32px;
+    float: left;
+    margin: 45px 0 0 18px;
+    color: #FF982D;
+}
+
+.orangeStr {
+    font-family: 'SFNSDisplay';
+    font-size: 32px;
+    float: left;
+    margin: 45px 0 0 18px;
+    color: #FF6C02;
+}
+
+.redStr {
+    font-family: 'SFNSDisplay';
+    font-size: 32px;
+    float: left;
+    margin: 45px 0 0 18px;
+    color: #FF1200;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 6px;
+    left: 105px;
+    background-image: url('../images/icons_loop.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.icon__green {
+    background-color: #86D73E;
+}
+
+.icon__blue {
+    background-color: #31BAF9;
+}
+
+.icon__yellow {
+    background-color: #FF982D;
+}
+
+.icon__orange {
+    background-color: #FF6C02;
+}
+
+.icon__red {
+    background-color: #FF1200;
+}
+
+/* content
+---------------------*/
+.main {
+    display: block;
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid #4A4A4A; */
+    text-align: center;
+    padding-bottom: 13px;
+}
+
+.content {
+    display: inline-block;
+    /* border: 1px solid #6321df; */
+}
+
+.content .bmiRecord {
+    font-family: 'SFNSDisplay';
+    font-size: 24px;
+    color: #424242;
+    line-height: 28px;
+    margin-top: 48px;
+    margin-bottom: 36px;
+    text-align: center;
+    /* border: 1px solid #b99727;
+    display: inline-block; */
+}
+
+.list {
+    /* width: 624px; */
+    width: 80%;
+    height: 62px;
+    margin: 0 auto;
+    font-family: 'SFNSDisplay';
+    font-size: 20px;
+    line-height: 23px;
+    color: #4A4A4A;
+    /* border: 1px solid #424242; */
+}
+
+.smStr {
+    font-family: 'AppleSystemUIFont';
+    font-size: 12px;
+    color: #424242;
+    margin: 0 5px;
+    float: left;
+    /* border: 1px solid #424242; */
+}
+
+.liList {
+    border: 1px solid #424242;
+    background: #FFFFFF;
+    margin-bottom: 16px;
+    /* 垂直置中 */
+    display: flex;
+    align-items: center;
+}
+
+.liList span {
+    /* 垂直置中 */
+    display: flex;
+    align-items: center;
+}
+
+.border--red {
+    border-left: 7px solid #FF1200;
+}
+
+.border--orange {
+    border-left: 7px solid #FF6C02;
+}
+
+.border--yellow {
+    border-left: 7px solid #FF982D;
+}
+
+.border--blue {
+    border-left: 7px solid #31BAF9;
+}
+
+.border--green {
+    border-left: 7px solid #86D73F;
+}
+
+.deleteClass {
+    /* border: 1px solid #424242; */
+    width: 100%;
+    /* background: white; */
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.deleteClass a {
+    text-decoration: underline;
+}
+
+.deleteClass a:hover {
+    background-color: #FF1200;
+    color: #FFFFFF;
+}
+
+/* nav
+---------------------*/
+
+
+/* menu-toggle 
+---------------------*/
+
+
+/* popup-menu 
+---------------------*/
+
+
+/*-------------------------*/
+/* $About
+---------------------------*/
+
+
+/*-------------------------*/
+/* $Quote
+---------------------------*/
+
+
+/*-------------------------*/
+/* $Skill
+---------------------------*/
+
+
+/*-------------------------*/
+/* $Experience
+---------------------------*/
+
+
+/* timeline
+---------------------*/
+
+
+/*-------------------------*/
+/* $Work
+---------------------------*/
+
+
+/* work-list
+---------------------*/
+
+
+/*-------------------------*/
+/* $Contact
+---------------------------*/
+
+
+/* form
+---------------------*/
+
+
+/* divide-text
+---------------------*/
+
+
+/* info
+---------------------*/
+
+
+
+/*-------------------------*/
+/* $footer
+---------------------------*/
+.footer {
+    display: block;
+    width: 100%;
+    height: 90px;
+    background: #FFD366;
+    margin-top: 74px;
+    /* border: 1px solid #424242; */
+}
+
+.footer .info-data {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 55px;
+    height: 55px;
+    background: #424242;
+    margin-top: 18px;
+    padding: 5px;
+}
+
+.footer img {
+    width: 100%;
+}
+
+
+/*-------------------------*/
+/* $parallax graphic
+---------------------------*/
