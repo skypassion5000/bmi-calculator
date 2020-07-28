@@ -68,6 +68,11 @@ function addData(e) {
             alert("體重資料格式有誤，請輸入數值");
         }
     }
+
+    // 換回看結果
+    if (judgeImg == "IMG") {
+        result.innerHTML = '<button class="btnInit">看結果</button>';
+    }
 }
 
 function getTime() { //取得用戶當下時間 
